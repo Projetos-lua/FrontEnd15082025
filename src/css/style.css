@@ -1,0 +1,31 @@
+.navbar{
+    padding: 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.nav{
+    height: 100vh;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.card{
+    border-radius: 10px;
+}
+
+
+.card-group{
+    display: flex;
+    padding-left: 120px;
+    gap: 20px;
+    justify-content: center;
+
+}
