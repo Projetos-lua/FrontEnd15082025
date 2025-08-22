@@ -1,0 +1,103 @@
+Título do Desafio: 
+
+"Construa um Dashboard de Monitoramento de Sistemas" 
+
+Objetivo: 
+
+Desenvolver uma interface responsiva utilizando Bootstrap que simule um dashboard de monitoramento de servidores e aplicações, com gráficos, métricas e um layout organizado. 
+
+Forma 
+
+Descrição do Desafio 
+
+Você foi contratado para criar um dashboard de monitoramento para uma empresa de tecnologia. O sistema deve exibir: 
+Status de servidores (online/offline) 
+Gráficos de desempenho (CPU, RAM, Disco) 
+Últimos alertas (notificações) 
+Métricas em tempo real (simuladas) 
+Menu de navegação lateral 
+
+Requisitos Técnicos: 
+
+✔ Utilizar Bootstrap 5 (via CDN ou instalado localmente) 
+✔ Layout responsivo (deve funcionar bem em desktop e mobile) 
+✔ Componentes Bootstrap obrigatórios: 
+
+Navbar (barra superior) ok
+
+Sidebar (menu lateral) ok
+
+Cards (para métricas) ok
+
+Tabelas (para alertas) 
+
+Gráficos (usando Chart.js ou apenas placeholders) ok
+
+Badges (para status) 
+
+Botões (para ações) 
+
+Forma 
+
+Tarefas Detalhadas 
+
+1. Estrutura Básica (HTML + Bootstrap) ok
+
+Criar um container principal (<div class="container-fluid">)  ok
+
+Dividir em sidebar (col-md-2) e conteúdo principal (col-md-10) ok
+
+Usar navbar no topo com o título "Monitoramento de Sistemas" ok
+-----------------------------------------------------------------------------
+2. Sidebar (Menu Lateral) ok
+
+Deve conter links para: 
+
+Dashboard (página inicial) ok
+
+Servidores ok
+
+Alertas ok
+
+Configurações ok
+
+Usar ícones (opcional, pode ser Bootstrap Icons) 
+---------------------------------------------------------------------------
+
+3. Seção de Métricas (Cards) 
+
+Criar 3 cards lado a lado (usando row e col-md-4) com: 
+
+Uso de CPU (ex: 65%) ok
+
+Uso de Memória (ex: 4GB / 8GB) ok
+
+Espaço em Disco (ex: 250GB / 500GB) ok
+
+---------------------------------------------------------------------------
+4. Gráficos (Chart.js ou Placeholder) 
+
+Pelo menos um gráfico (pode ser de linha ou barra) simulando: 
+
+Consumo de CPU nos últimos 5 minutos ok
+
+Tráfego de rede ok
+---------------------------------------------------------------------------
+
+5. Tabela de Alertas 
+
+Criar uma tabela (<table class="table">) com: 
+
+Data/Hora 
+
+Servidor 
+
+Mensagem (ex: "CPU acima de 90%") 
+
+Status (usar badge bg-danger para crítico, bg-warning para alerta) 
+
+6. Responsividade 
+
+Garantir que o sidebar recolha em telas pequenas (usar navbar-toggler) 
+
+Os cards devem empilhar verticalmente em mobile 

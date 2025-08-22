@@ -1,31 +1,14 @@
-.navbar{
-    padding: 25px;
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0;
-}
-
-.nav{
-    height: 100vh;
-    position: absolute;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-
-.card{
-    border-radius: 10px;
-}
-
-
-.card-group{
-    display: flex;
-    padding-left: 120px;
-    gap: 20px;
-    justify-content: center;
-
-}
+body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .sidebar {
+      min-height: 100vh;
+      background-color: #f8f9fa;
+    }
+    @media (max-width: 768px) {
+      .sidebar {
+        min-height: auto;
+      }
+    }
